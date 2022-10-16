@@ -1,11 +1,20 @@
 if(env.equals("Production")){
-  return ["Prod1"]
+  return ["hsbc-11296459-modelmgt51-prod"]
 }
-else if(env.equals("QA")){
-  return ["QA1","QA2"]
+else if(env.equals("DR")){
+  return ["hsbc-11296459-modelmgt-prod"]
 }
-else if(env.equals("Development")){
-  return ["Dev1","Dev2","Dev3"]
+else if(env.equals("UAT")){
+  return ["hsbc-11296459-modelmgt51-dev"]
+}
+else if(env.equals("DEMO")){
+  return ["hsbc-11296459-modelmgt3-dev"]
+}
+else if(env.equals("SIT")){
+  return ["hsbc-11296459-modelmgt2-dev"]
+}
+else if(env.equals("DEV")){
+  return ["hsbc-11296459-modelmgt2-dev"]
 }
 else{
 	return ["Select a server from dropdown"]
