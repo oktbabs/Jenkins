@@ -1,5 +1,7 @@
 return[
-'Production',
-'QA',
-'Development'
+'PROD',
+'UAT',
+'DEMO',
+'SIT',
+'DEV'
 ]
